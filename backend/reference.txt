@@ -1,0 +1,3 @@
+//broadcast channel
+
+so a person has to send message to every other person in the call that is done via channnels
