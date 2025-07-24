@@ -12,7 +12,7 @@ const CreateRoom = () => {
         setError(null);
 
         try {
-            const resp = await fetch("http://localhost:8000/create");
+            const resp = await fetch(`${process.env.REACT_APP_BACKEND_URL}/create`);
 
             if (!resp.ok) {
                 throw new Error(`HTTP error! status: ${resp.status}`);
